@@ -24,3 +24,23 @@ What is the average daily cost of a healthy diet by region and year?
 The final Gold table provides aggregated daily cost metrics by region and year,
 ready for analytics and reporting.
 
+## Screenshots
+
+### S3 Folder Structure
+![S3 structure](images/01_s3_structure.png)
+
+### Landing (CSV)
+![Landing table](images/02_athena_landing.png)
+
+### Bronze (Parquet + types)
+![Bronze table](images/03_athena_bronze.png)
+
+### Silver (Business rule + derived column)
+![Silver table](images/04_athena_silver.png)
+
+### Gold (Insight table)
+![Gold table](images/05_athena_gold.png)
+
+### Query Stats (low scan)
+![Query stats](images/06_query_stats.png)
+
