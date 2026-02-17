@@ -44,3 +44,7 @@ ready for analytics and reporting.
 ### Query Stats (low scan)
 ![Query stats](images/06_query_stats.png)
 
+## Version 2 (Advanced)
+I’m building a v2 of this pipeline with incremental loads, orchestration (Step Functions + EventBridge), and data quality checks using Athena + Iceberg.
+
+➡️ https://github.com/abe1o0/healthy-diet-aws-pipeline-v2
